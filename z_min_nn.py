@@ -4,8 +4,8 @@ import print_funcs as pf
 import model_11lines as m11
 import activation_funcs as af
 
-m, X, Y = ds.xor()
-#m, X, Y = ds.one_col_correlation()
+#m, X, Y = ds.xor()
+m, X, Y = ds.one_col_correlation()
 
 pf.arr_vec_print("X (examples x inputs) =", X, "Y =", Y)
 
